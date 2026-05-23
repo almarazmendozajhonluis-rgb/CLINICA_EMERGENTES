@@ -9,3 +9,6 @@ itsdangerous==2.2.0
 click==8.1.7
 blinker==1.8.2
 gunicorn==22.0.0
+Flask-Migrate==4.0.7
+Flask-Login==0.6.3
+psycopg2-binary==2.9.10
