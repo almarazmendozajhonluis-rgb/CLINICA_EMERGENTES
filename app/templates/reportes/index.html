@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row g-4">
+
+    <!-- MEDICOS -->
+    <div class="col-md-4">
+
+        <div class="card p-5 text-center">
+
+            <h1 class="display-4 text-info">
+                👨‍⚕️
+            </h1>
+
+            <h2>
+                Médicos
+            </h2>
+
+            <h1 class="fw-bold">
+                {{ total_medicos }}
+            </h1>
+
+        </div>
+
+    </div>
+
+    <!-- PACIENTES -->
+    <div class="col-md-4">
+
+        <div class="card p-5 text-center">
+
+            <h1 class="display-4 text-success">
+                👨‍👩‍👧
+            </h1>
+
+            <h2>
+                Pacientes
+            </h2>
+
+            <h1 class="fw-bold">
+                {{ total_pacientes }}
+            </h1>
+
+        </div>
+
+    </div>
+
+    <!-- CONSULTAS -->
+    <div class="col-md-4">
+
+        <div class="card p-5 text-center">
+
+            <h1 class="display-4 text-primary">
+                📋
+            </h1>
+
+            <h2>
+                Consultas
+            </h2>
+
+            <h1 class="fw-bold">
+                {{ total_consultas }}
+            </h1>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
